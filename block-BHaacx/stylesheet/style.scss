@@ -1,0 +1,251 @@
+@import "genral";
+@import "reset";
+
+header{
+    position: absolute;
+    width: 100%;
+    padding-top: 1rem;
+    strong{
+        font-size: 1.5rem;
+    }
+    li{
+        margin-left: 1rem;
+        font-size: .9rem;
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+    }
+}
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.img-width{
+    width: 100%;
+}
+.item-1{
+    grid-column: span 2;
+}
+.item-2{
+    display: grid;
+    grid-column: span 2;
+    background-color: hsl(24, 60%, 90%);
+    align-content: center;
+    padding: 2.4rem;
+    h4{
+        font-size: .7rem;
+        font-weight: 600;
+        color: gray;
+        padding-bottom: 2rem;
+    }
+    h2{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        color: gray;
+    }
+    p{
+        color: gray;
+        line-height: 1.5;
+        padding-bottom: 2rem;
+    }
+    button{
+        border: 2px solid black;
+        padding: .8rem 2rem;
+        color: black;
+        background-color: #F5E3D7;
+        border-radius: 1.8rem;
+        width: 20%;
+        font-weight: 600;
+    }
+}
+.item-3{
+    grid-column: span 2;
+    background-color: white;
+    padding: 2rem;
+    h3{
+      font-size: 1.9rem;
+      padding: 1rem .6rem;
+    }
+    h5{
+        color: red;
+    }
+    p{
+        color: gray;
+        line-height: 1.4;
+        padding: .5rem 0;
+    }
+}
+.item-5{
+    background-color: #ECAF4E;
+    padding: 2rem;
+    h3{
+        font-size: 1.8rem;
+        color: white;
+        padding: 1.4rem .7rem;
+    }
+    p{
+        color: white;
+        padding-bottom: 1rem;
+    }
+    small{
+        font-weight: 600;
+        padding-bottom: .3rem;
+    }
+    span{
+        color: white;
+    }
+}
+.item-6{
+    display: grid;
+justify-items: center;
+background-color: #ECAF4E;
+padding: 2rem;
+a{
+    color: white;
+    padding: 1rem;
+}
+h4{
+    color: white;
+    font-size: 1.5rem;
+}
+p{
+    color: white;
+    padding: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+}
+.color-1{
+    background-color: #FC683E;
+}
+.color-2{
+    background-color: #161616;
+}
+.color-3{
+    background-color: white;
+}
+.item-10{
+    grid-column: span 2;
+    font-size: 0;
+}
+.item-11{
+    grid-column: span 2;
+    background-color: #FC683E;
+    padding: 2rem;
+    h3{
+        font-size: 1.8rem;
+        color: white;
+        margin: 1.6rem 1rem;
+    }
+    p{
+        color: white;
+        line-height: 1.4;
+        
+    }
+    a{
+        margin-right: 1rem;
+        color: white;
+    }
+    div{
+        padding: .4rem 0;
+    }
+}
+.color-4{
+    background-color: #ECAF4E;
+}
+.item-12{
+    grid-column: span 2;
+}
+.item-13{
+    grid-column: span 2; font-size: 0;
+}
+.item-15{
+    font-size: 0;
+}
+.item-14{
+    grid-column: span 2;
+    background-color: #FC683E;
+    align-items: flex-start;
+    padding: 2rem;
+    span{
+        font-size: 1.9rem;
+        color: white;
+        display: block;
+        margin: 1.1rem 0;
+    }
+    p{
+        color: white;
+        padding-bottom: 1rem;
+    }
+    small{
+        color: white;
+    }
+   .line{
+       border-bottom: 2px solid gray;
+       padding: .3rem 0;
+       margin-bottom: 1rem;
+   }
+   .line-2{
+    border-bottom: 2px solid gray;
+    padding: 2.5rem 0;
+   }
+   button{
+       background-color: white;
+       color: gray;
+       border: none;
+       padding: .6rem 4rem;
+       border-radius: 1.4rem;
+       margin-top: 1rem;
+   }
+}
+.white{
+    background-color: black;
+    height: .3rem;
+    width: 90%;
+}
+.black{
+    background-color: white;
+    height: .3rem;
+    width: 100%;
+    margin: 10px 0;
+}
+.item-16{
+    background-color: #161616;
+    padding: 2rem;
+    h3{
+        color: white;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-bottom: .6rem;
+    }
+    p{
+        color:white;
+        padding: 1.4rem 0;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin-bottom: .3rem;
+    }
+}
+.map{
+    background-color: #FC683E;
+    display: grid;
+    grid-column: 1/ -1;
+    justify-content: center;
+    padding: 3rem 0;
+}
+footer{
+    text-align: center;
+    padding: 5.6rem 0;
+    span{
+        color: red;
+    }
+    li{
+        padding-left: 1rem;
+        padding-top: 1rem;
+        color: gray;
+    }
+}
